@@ -7,3 +7,7 @@ services:
       - './src/www/html:/usr/share/nginx/html'
     ports:
       - '80:80'
+
+  github-release:
+    image: 'github-release'
+    build: './src'
