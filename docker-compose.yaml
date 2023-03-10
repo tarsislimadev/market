@@ -2,6 +2,7 @@ version: '3'
 
 services:
   www:
+    image: 'tmvdl/projects:market'
     build: './src/www'
     volumes:
       - './src/www/html:/usr/share/nginx/html'
