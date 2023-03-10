@@ -4,6 +4,6 @@ services:
   www:
     build: './src/www'
     volumes:
-      - './src/www:/app'
+      - './src/www/html:/usr/share/nginx/html'
     ports:
       - '80:80'
