@@ -12,3 +12,5 @@ services:
   github-release:
     image: 'github-release'
     build: './src'
+    volumes:
+      - './src:/app'

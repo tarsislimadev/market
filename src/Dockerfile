@@ -1,4 +1,4 @@
-FROM tmvdl/android:app
+FROM tmvdl/android:ionic
 
 WORKDIR /app
 
@@ -8,6 +8,10 @@ WORKDIR /app/market
 
 COPY www/html www
 
+COPY ./config.xml ./config.xml
+
 RUN cordova platform add android
+
+RUN cordova plugin add cordova-plugin-barcodescanner
 
 RUN cordova build android
