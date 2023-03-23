@@ -10,6 +10,8 @@ COPY www/html www
 
 COPY ./config.xml ./config.xml
 
+RUN sdkmanager --licenses
+
 RUN cordova platform add android
 
 RUN cordova plugin add cordova-plugin-barcodescanner
