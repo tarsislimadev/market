@@ -7,7 +7,7 @@
     <content src="index.html" />
     <allow-intent href="http://*/*" />
     <allow-intent href="https://*/*" />
-    <preference name="android-buildToolsVersion" value="30.0.0" />
+    <preference name="android-buildToolsVersion" value="30.0.3" />
     <config-file target="AndroidManifest.xml" parent="/*" mode="merge">
         <uses-permission android:name="android.permission.CAMERA" />
         <uses-feature android:name="android.hardware.camera" />
