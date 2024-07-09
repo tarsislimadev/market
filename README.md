@@ -1,5 +1,0 @@
-# Market
-
-## License
-
-[MIT](./LICENSE)
